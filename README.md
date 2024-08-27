@@ -51,7 +51,7 @@ npm run serve
 
  #### Log in
 
-```
+```javascript
 login() {
   // Inicia el proceso de autenticación.
   
@@ -104,7 +104,7 @@ login() {
 
  #### Register
 
-```
+```javascript
 register() {
   // 1. Verifica si el formulario es válido utilizando las reglas de validación establecidas
   if (this.$refs.form.validate()) {
@@ -153,7 +153,7 @@ register() {
 }
 ```
  #### verify And Update Password
-```
+```javascript
 verifyAndUpdatePassword() {
   // 1. Inicia el estado de carga, que puede ser usado para mostrar un spinner o indicador visual
   this.loading = true;
