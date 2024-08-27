@@ -214,4 +214,5 @@ verifyAndUpdatePassword() {
 - **Uso de Vuex:** Migrar la gestión de estado desde `localStorage` a Vuex para una mejor arquitectura de la aplicación.
 - **Librería de Componentes:** Utilizar una librería de componentes que se alinee mejor con los estándares de la empresa para mejorar la consistencia visual.
 - **Base de Datos y API:** Integrar una base de datos y APIs para manejar la información, permitiendo una mayor escalabilidad y seguridad.
-
+- **Protección de Rutas en Vue Router:** Implementar la protección de rutas en Vue Router para asegurar que solo los usuarios autenticados o con permisos específicos puedan acceder a ciertas secciones de la aplicación, mejorando la seguridad y el control de acceso.
+ 
