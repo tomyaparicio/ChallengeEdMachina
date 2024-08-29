@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación web desarrollada en Vue.js 2 y Vuetify 2, que incluye funcionalidades de autenticación como inicio de sesión, registro de usuarios, recuperación de contraseñas y un dashboard protegido. 
 
+inicialmente se optó por utilizar localStorage para la gestión de estado debido a que se trata de un proyecto pequeño, lo que permite una implementación sencilla y directa. Sin embargo, con miras a una mejor arquitectura y escalabilidad futura, se está considerando migrar la gestión de estado a Vuex. Esta migración proporcionará una estructura más robusta y adecuada para manejar estados complejos en aplicaciones más grandes.
+
 ## Características
 
 - **Pantalla de Inicio de Sesión (Login):** Permite a los usuarios autenticarse en la aplicación ingresando su correo electrónico y contraseña.
